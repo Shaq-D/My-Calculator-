@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">    
+        <title>Calculator</title>
+
+        <link rel="icon" href="assets/icon-1.png">     
+        <!--Google Fonts-->  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&display=swap" rel="stylesheet">
+
+        <!--Vendor CSS Files-->
+        <link rel="stylesheet" href="assets/bootstrap.min.css">   
+        <!--Main CSS File-->
+        <link rel="stylesheet" href="assets/styles.css">       
+        
+    </head>
+    <body>
+        <div class="screen" id="display"></div>
+        <div class="bottom-screen d-flex"> 
+            <button id="button_1" onclick="getElementById('functionbuttons').style.display = 'block'">EXPAND</button>
+            <div class="button-container rounded rectangle">
+                <section id="functionbuttons" style="display: none;">   
+                    <div class="container-sm d-flex justify-content-center align-items-center">  
+                        <button onclick="append('sin')" id="buttonsin" class="rounded rectangle">sin</button>
+                        <button onclick="append('cos')" id="buttoncos" class="rounded rectangle">cos</button>  
+                        <button onclick="append('tan')" id="buttontan" class="rounded rectangle">tan</button>   
+                        <button onclick="append('log')" id="buttonlog" class="rounded rectangle">log</button>
+                    </div>
+                </section>  
+                <div class="container-sm d-flex justify-content-center">
+                    <button onclick="clearDisplay()" id="button0" class="rounded rectangle">AC</button>
+                    <button onclick="append('-')" id="button1" class="rounded rectangle">-</button>  
+                    <button onclick="append('+')" id="button2" class="rounded rectangle">+</button>   
+                    <button onclick="clearLastElement()" id="button_4" class="rounded rectangle">DEL</button>
+                </div>                 
+                <div class="container-sm d-flex justify-content-center">
+                    <button onclick="append('7')" id="button7" class="rounded rectangle">7</button>  
+                    <button onclick="append('8')" id="button8" class="rounded rectangle">8</button>  
+                    <button onclick="append('9')" id="button9" class="rounded rectangle">9</button>  
+                    <button onclick="append('*')" id="buttonX" class="rounded rectangle">X</button>   
+                </div>
+                <div class="container-sm d-flex justify-content-center">
+                    <button onclick="append('4')" id="button4" class="rounded rectangle">4</button>  
+                    <button onclick="append('5')" id="button5" class="rounded rectangle">5</button>  
+                    <button onclick="append('6')" id="button6" class="rounded rectangle">6</button>  
+                    <button onclick="append('/')" id="button" class="rounded rectangle">/</button>    
+                </div>
+                <div class="container-sm d-flex justify-content-center">
+                    <button onclick="append('1')" id="button-1" class="rounded rectangle">1</button>   
+                    <button onclick="append('2')" id="button-2" class="rounded rectangle">2</button>  
+                    <button onclick="append('3')" id="button-3" class="rounded rectangle">3</button>  
+                    <button onclick="calculateResult()" id="button-4" class="rounded rectangle">=</button>
+                </div>
+                <div claas="container-sm d-flex justify-content-center">
+                    <button onclick="append('.')" id="buttondot" class="rounded rectangle">.</button>  
+                    <button onclick="append('0')" id="button_2" class="rounded rectangle">0</button>  
+                    <button onclick="append('%')" id="button_3" class="rounded rectangle">%</button>  
+                    <button id="button-8" class="rounded rectangle">Ans</button>  
+                </div>
+            </div>
+        </div>
+        <div class="bottom-screen-2"></div>   
+        <script src="assets/main.js"></script>  
+        <script src="assets/operator.js"></script>
+    </body>
+</html>

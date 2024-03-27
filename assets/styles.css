@@ -1,0 +1,145 @@
+.screen {
+    height: 260px; 
+    background-color: #000000;  
+    color: #ffffff;   
+    font-size: 30px;
+    display: flex; 
+    justify-content: right; 
+    align-items:center;   
+    
+} 
+
+.bottom-screen {
+    background-color: rgba(87, 88, 89,0.5);
+    height: 300px;
+    padding-top: 10px;
+}
+
+.bottom-screen-2 {
+    background-color: rgba(87, 88, 89,0.5);  
+    height: 40px;
+}
+
+.button-container {   
+    margin: 10px auto; 
+    background-color: transparent;   
+    height: 285px; 
+    width: 310px; 
+    padding-top: 10px;  
+    margin-top: 2px; 
+} 
+
+.button-container button {
+    width: 50px; 
+    border: 1px solid #949596;     
+    background-color: #949596; 
+    font-family: "kanit",sans-serif;  
+    font-weight: 500; 
+    font-size: 25px;  
+}
+
+#buttonsin,
+#buttoncos, 
+#buttontan {
+    margin-top: 10px;  
+    margin-right: 10px; 
+    width: 50px; 
+    border: 1px solid #949596;    
+    background-color: #949596;   
+    font-family: "kanit",sans-serif;   
+    font-weight: 500;  
+    font-size: 25px;  
+}
+
+#buttonlog {
+    margin-top: 10px;  
+    margin-left: 5px;  
+    width: 100px;  
+    border: 1px solid #949596;  
+    background-color: #949596;  
+    font-family: "kanit",sans-serif;  
+    font-weight: 500;  
+    font-size: 25px;     
+}
+
+#button_1 {
+    height: 45px; 
+    margin-left: 5px;
+    border: 1px solid #949596;  
+    background-color: #949596;  
+    font-family: "kanit",sans-serif;  
+    font-weight: 500;  
+    font-size: 25px;    
+}
+
+#button0,
+#button1,
+#button2 {
+    margin-right: 10px;
+    margin-top: 10px; 
+}
+
+#button7,
+#button8,
+#button9 {
+    margin-right: 10px;  
+    margin-top: 10px;   
+}
+
+#button4,
+#button5,
+#button6 {
+    margin-right: 10px;    
+    margin-top: 10px;   
+}
+
+#button-1,
+#button-2,
+#button-3 {
+    margin-right: 10px;  
+    margin-top: 10px;   
+}
+
+#buttondot,
+#button_2,
+#button_3 {
+    margin-left: 10px;  
+    margin-top: 10px;   
+}
+
+#button4 {
+    margin-top: 10px; 
+} 
+
+#button_4 {
+    margin-top: 10px;  
+    margin-left: 5px;   
+    width: 100px;     
+}
+
+#buttonX {
+    margin-top: 10px;
+    margin-left: 5px;  
+    width: 100px;  
+    height: 42px;
+    font-size: 28px; 
+}  
+
+#button {
+    margin-top: 10px;  
+    margin-left: 5px;  
+    width: 100px;   
+}
+
+#button-4 {
+    margin-top: 10px;  
+    margin-left: 5px;    
+    width: 100px;    
+}  
+
+#button-8 {
+    margin-top: 10px;  
+    margin-left: 5px;  
+    width: 100px;  
+
+}
